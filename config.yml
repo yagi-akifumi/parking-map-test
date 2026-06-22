@@ -1,6 +1,6 @@
 title: Geolonia PWAマップ
 description: Google スプレッドシートを更新するだけでオリジナルの地図アプリを作成できる\n「Geolonia PWAマップ」
-data_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSyxTt2YqSmxacQGtpz_G-Ja8mmx9diJFCAsCd8Tvn28sWVkD8t1fsTQp4agJyfMDbIFPdzXd_wpPVu/pubhtml?gid=1402193542&single=true
+data_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyxTt2YqSmxacQGtpz_G-Ja8mmx9diJFCAsCd8Tvn28sWVkD8t1fsTQp4agJyfMDbIFPdzXd_wpPVu/pub?gid=1402193542&single=true&output=csv"
 form_url:
 logo_image_url: https://geoloniamaps.github.io/pwamap/icon-pwamap.svg
 background_image_url: https://geoloniamaps.github.io/pwamap/geolonia_bgimage_1920_1080.png
