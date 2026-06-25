@@ -1,0 +1,64 @@
+.parking-dashboard {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.parking-sidebar {
+  width: 380px;
+  min-width: 380px;
+  height: 100vh;
+  overflow-y: auto;
+  background: #f7f7f7;
+  border-right: 1px solid #dddddd;
+  z-index: 10;
+}
+
+.parking-sidebar-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.parking-sidebar-header h1 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.parking-sidebar-header p {
+  color: #666666;
+  font-size: 0.8rem;
+}
+
+.parking-sidebar-list {
+  padding: 12px;
+}
+
+.parking-map-area {
+  flex: 1;
+  height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .parking-dashboard {
+    flex-direction: column;
+  }
+
+  .parking-sidebar {
+    width: 100vw;
+    min-width: 100vw;
+    height: 45vh;
+    border-right: none;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .parking-map-area {
+    width: 100vw;
+    height: 55vh;
+  }
+}

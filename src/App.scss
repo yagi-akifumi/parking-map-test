@@ -3,27 +3,12 @@ a {
   text-decoration: none;
 }
 
-.app {
+.app-body {
   width: 100vw;
   height: 100vh;
-  background: #ffffff;
-  position: relative;
-  overflow: hidden;
-}
-
-.app-body {
-  width: 100%;
-  height: calc(100vh - 56px);
   overflow: hidden;
 }
 
 .app-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  height: 56px;
-  background-color: #ffffff;
-  border-top: 1px solid #cccccc;
-  z-index: 9999;
+  display: none;
 }
